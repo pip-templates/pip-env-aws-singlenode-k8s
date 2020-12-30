@@ -1,0 +1,32 @@
+{
+    "env_type": "on-premises",
+
+    "aws_access_id": "XXX",
+    "aws_access_key": "XXX",
+    "aws_region": "us-east-1",
+
+    "vpc": "XXX",
+
+    "env_name": "pip-templates",
+
+    "vm_k8s_subnet_id": "",
+    "vm_k8s_subnet_cidr": "172.31.100.0/28",
+    "vm_k8s_subnet_zone": "us-east-1a",
+
+    "vm_k8s_ssh_allowed_cidr_blocks": [
+        "109.254.10.81/32",
+        "109.254.254.158/32"
+    ],
+    "vm_k8s_instance_type": "t2.medium",
+    "vm_k8s_instance_keypair_new": true,
+    "vm_k8s_instance_keypair_name": "pipdevs",
+    "vm_k8s_instance_username": "ubuntu",
+    "vm_k8s_instance_ami": "ami-43a15f3e",
+
+    "onprem_k8s_network": "10.244.0.0/16",
+    "onprem_kubernetes_cni_version": "0.6.0-00",
+    "onprem_kubelet_version": "1.10.13-00",
+    "onprem_kubeadm_version": "1.10.13-00",
+    "onprem_kubectl_version": "1.10.13-00"
+
+}

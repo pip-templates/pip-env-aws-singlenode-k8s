@@ -1,0 +1,10 @@
+# Install ansible
+sudo apt-get install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt-get update -y
+sudo apt-get install -y ansible
+
+# Install AWS Cli
+sudo apt-get install -y python-setuptools python-dev build-essential
+sudo easy_install pip 
+sudo pip install awscli
